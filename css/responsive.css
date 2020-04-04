@@ -338,6 +338,9 @@
 		width: 50%;
 		float: left;
 	}
+	.image-ev{
+		width: 80vw;
+	}
 	.what-we-do .rotatebox:nth-child(3) {
 		width: 100%;
 	}
@@ -800,6 +803,13 @@
 	}
 	.team .social li {
 		width: auto;
+	}
+	.recuirtment{
+		display: flex;
+		flex-direction: column;
+	}
+	.recuirtment img{
+		width: 100%;
 	}
 	
 	.services.style-2 article {
