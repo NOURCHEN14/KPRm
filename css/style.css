@@ -1878,3 +1878,89 @@ footer button {
 		margin-left: 20%;
 	}
 }
+.home-fix{
+	display: flex;
+	justify-content: space-between;
+}
+.home-fix .image-fix{
+	align-self: center;
+}
+/*=======================================================
+      BLOG
+========================================================*/ 
+.blog article{
+	padding:20px;
+	border:1px solid #ececec;
+	display:inline-block;
+	width:100%;
+	margin-bottom:30px;
+	padding-bottom:20px;
+}
+.blog .post-info{
+	margin-top:20px;
+}
+.blog .post-info span {
+	display: inline-block;
+}
+.blog .post-info hr{
+	margin:10px 0;
+	background:#444444;
+}
+.blog .tittle-post {
+	font-family: "PT Sans";
+	font-size: 15px;
+	font-weight: 600;
+	display: inline-block;
+	width: 100%;
+	letter-spacing: 1px;
+	line-height: 26px;
+	color:#444444;
+	margin-top:0px;
+	margin-bottom: 0;
+	text-transform: none;
+}
+.blog .tittle-post a {
+	color:#444444;	
+}
+.blog .post-info p{
+	margin-top:20px;
+}
+.blog .post-info .read-more{
+	border-bottom:1px dotted #00b1f1;
+	display:inline-block;
+	float:right;
+	text-transform:uppercase;
+	margin-top:20px;
+	margin-right:10px;
+	font-weight:bold;
+	color:#444444;
+	font-size:11px;
+} 
+.blog .icons li{
+	margin-top:20px;
+	margin-right:10px;
+	display:inline-block;
+}
+.blog .btn {
+}
+.blog .btn:hover {
+	background: #252525;
+}
+.blog .date {
+	width: 61px;
+	height: 61px;
+	float: left;
+	margin-right:10px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #fff;
+	padding: 0 10px;
+	padding-top: 7px;
+	text-align: center;
+	line-height: 20px;
+	background: #00b1f1;
+	letter-spacing: 0.4px;
+	outline:3px solid #00b1f1;
+	border:1px solid #fff;
+	margin-left:3px;
+}
